@@ -5,7 +5,7 @@ body {
   justify-content: center;
 }
 
-.display {
+#display {
   color: white;
   font-size: 70px;
   height: 80px;
@@ -52,4 +52,14 @@ button {
 .actionButton {
   background-color: orange;
   color: white;
+}
+
+.formatButton {
+  font-size: 25px;
+}
+
+#zero {
+  width: 135px;
+  text-align: left;
+  padding: 0 25px;
 }
