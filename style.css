@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.display {
+  color: white;
+  font-size: 70px;
+  height: 80px;
+  text-align: right;
+  padding: 10px;
+}
+
+.case {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border: 2px solid white;
+  padding: 60px 45px;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border: transparent;
+  font-weight: bold;
+}
+
+.inputButton {
+  background-color: gray;
+  color: white;
+}
+
+.actionButton {
+  background-color: orange;
+  color: white;
+}
